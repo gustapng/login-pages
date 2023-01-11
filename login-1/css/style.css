@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+#radius-shape-1 {
+  height: 300px;
+  width: 300px;
+  top: -40px;
+  left: -50px;
+  background: radial-gradient(#406bef, #6384e7);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: 20%;
+  right: 110px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(#406bef, #6384e7);
+  overflow: hidden;
+}
+
+.name-shape {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 40%;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.name-plat {
+  font-size: 1.6em;
+}
+
+.text-header {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-login {
+  position: absolute;
+  top: 50%;
+  margin-top: -16em;
+  margin-right: 35%;
+}
+
+.card-content {
+  /* background-color: red; */
+  width: 27em;
+  height: 32em;
+  border-radius: 0.5em;
+  color: #676767;
+}
+
+.label-form {
+  display: flex;
+  justify-content: center;
+}
+
+.label-form i{
+  position: absolute;
+  margin-left: 14em;
+}
+
+input {
+  margin-top: -5px;
+  width: 60%;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #676767;
+  font-size: 1em;
+}
+
+label {
+  font-size: 0.9em;
+  margin-left: 6em;
+}
+
+.btn-signin {
+  width: 83%;
+  background-color: #406bef;
+  color: #fff;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p {
+  font-size: 0.8em;
+}
